@@ -4,7 +4,6 @@ export default function Form(props) {
   const [text,setText]=useState("")
   const toupcase=()=>{
     setText(text.toUpperCase())
-    props.setMessage("Changed to Uppercase","success")
   }
   const tolowcase=()=>{
     setText(text.toLowerCase())

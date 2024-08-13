@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Form from './my-components/Form';
 import NavBar from './my-components/NavBar';
+// import About from './my-components/About';
 
 
 function App() {
@@ -23,9 +24,9 @@ function App() {
     <div className="App">
       <div>
         <NavBar mode={mode} changemode={change_mode}/>
-        <div className="container my-3">
-            <Form mode={mode}/>
-        </div>
+            <div className="container my-3">
+              <Form mode={mode}/>
+            </div>
       </div>
     </div>
   );
